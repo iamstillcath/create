@@ -1,0 +1,62 @@
+body {
+  background: lightBlue;
+  text-align: center;
+}
+.message-container{
+  background: whitesmoke;
+  margin-top: 12%;
+  padding:5px;
+  margin-left: 35%;
+  margin-right: 35%;
+  box-sizing: content-box;
+  width: 450px;
+  height: 270px;
+} 
+.message-content {
+  color: lightBlue;
+  font-size: 22px;
+  text-transform: uppercase !important;
+  
+}
+#submitBtn {
+  background: lightBlue;
+  color: white !important;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+
+}
+#submitBtn:hover {
+  color: Black !important;
+  cursor: pointer;
+}
+
+.feedback {
+  display: none;
+}
+
+.show {
+ display:block;
+}
+
+.text-capitalize {
+font-size: 24px;
+text-align: center;
+font-weight: lighter;
+font-family: arial;
+text-transform: capitalize;
+margin-top: 2%;
+}
+
+#message{
+  font-size: 200%;
+  margin-bottom: 10px;
+ 
+}
+
+.text-capitalizee{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0%;
+}
